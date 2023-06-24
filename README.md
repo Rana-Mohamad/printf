@@ -21,4 +21,20 @@
 	* You don’t have to handle field width
 	* You don’t have to handle precision
 	* You don’t have to handle the length modifiers
+2. With a face like mine, I do better in print: Handle the following custom conversion specifiers:
+	* b: the unsigned int argument is converted to binary
+3. What one has not experienced, one will never understand in print: Handle the following conversion specifiers:
+	* u
+	* o
+	* x
+	* X
+	* You don’t have to handle the flag characters
+	* You don’t have to handle field width
+	* You don’t have to handle precision
+	* You don’t have to handle the length modifiers
+4. Nothing in fine print is ever good news: Use a local buffer of 1024 chars in order to call write as little as possible.
+13. Print is the sharpest and the strongest weapon of our party: Handle the following custom conversion specifier:
+	* r : prints the reversed string
+14. The flood of print has turned reading into a process of gulping rather than savoring: Handle the following custom conversion specifier:
+	* R: prints the rot13'ed string
 
